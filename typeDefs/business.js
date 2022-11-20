@@ -26,7 +26,7 @@ module.exports = gql`
   }
 
   type BusinessCount {
-    Businesses: [Business!]!
+    businesses: [Business!]!
     totalBusinesses: Int!
     perPage: Int!
     currentPage: Int!

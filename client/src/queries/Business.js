@@ -50,7 +50,7 @@ export const ALL_BUSINESSES = gql`
 `;
 
 export const DELETE_BUSINESS = gql`
-  mutation DeleteBusiness($customerId: String!) {
+  mutation DeleteBusiness($businessId: String!) {
     deleteBusiness(businessId: $businessId) {
       id
       name
